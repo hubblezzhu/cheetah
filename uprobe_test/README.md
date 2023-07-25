@@ -1,0 +1,1 @@
+clang -g -O2 -target bpf  -I/usr/include/bpf -I. -c  uprobe_example.c -o  uprobe_example.o
